@@ -1,0 +1,8 @@
+packages:
+  - server
+  - web
+
+# pnpm 11 起用 allowBuilds 显式放行依赖的构建脚本（键=包名，值=是否允许）
+allowBuilds:
+  esbuild: true
+  vue-demi: true

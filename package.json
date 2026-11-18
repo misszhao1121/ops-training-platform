@@ -1,0 +1,13 @@
+{
+  "name": "ops-training-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "运维练习 · 面试 · 实验 一体化训练平台",
+  "scripts": {
+    "dev:server": "pnpm --filter @ops/server dev",
+    "dev:web": "pnpm --filter @ops/web dev",
+    "build:server": "pnpm --filter @ops/server build",
+    "build:web": "pnpm --filter @ops/web build",
+    "seed": "pnpm --filter @ops/server seed"
+  }
+}

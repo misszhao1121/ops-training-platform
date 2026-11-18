@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# 运行时生成的数据库与本地环境变量
+server/data/
+server/.env
+web/.env.local
+
+# 编辑器
+.vscode/
+.idea/
+resp.txt
